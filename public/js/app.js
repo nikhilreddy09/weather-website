@@ -43,7 +43,7 @@ else {
 
     message1.textContent = data.location
     message2.textContent = "current temperature : " + data.forecast.currentTemperature +" summary : " + data.forecast.dailySummary +
-    "\n  there is " + data.forecast.chanceofRain +"% chance of rain today"
+    "\n  there is " + data.forecast.chanceofRain +"% chance of rain today. \n   " +"humidity is : " +data.forecast.humidity
     console.log(data.location)
     console.log(data.forecast)
 }
